@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockpicker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/stockpicker.rb" afterDir="false" />
+    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="Added two older projects to the pool">
+      <change afterPath="$PROJECT_DIR$/Classes/class_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/modules_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubblesort.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/bubble_sort.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/romannumberconverter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/roman_number_converter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockpicker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/stock_picker.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/substrings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/sub_strings.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordscanner.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/word_scanner.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +23,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bubblesort.rb" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/stockpicker.rb" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/substrings.rb" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2TgyLfGUcMpffBioUkyUz4QcUQV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,10 +49,15 @@
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true",
     "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/General" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
@@ -55,15 +67,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691140501480</updated>
-      <workItem from="1691478964770" duration="1537000" />
+      <workItem from="1691478964770" duration="8472000" />
+      <workItem from="1691487744673" duration="4000" />
+      <workItem from="1691487758316" duration="12170000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished stockpicker">
+      <option name="closed" value="true" />
+      <created>1691481098750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691481098750</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated stockpicker.rb:&#10;- Corrected result output so that it actually puts the correct sequence of numbers &#10;- You can now enter your own array of stock prices (Should be formatted like this: 1, 2, 3, 4)">
+      <option name="closed" value="true" />
+      <created>1691482406979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691482406979</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added bubblesort.rb">
+      <option name="closed" value="true" />
+      <created>1691487658279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487658279</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added two older projects to the pool">
+      <option name="closed" value="true" />
+      <created>1691493920661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691493920661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished stockpicker.rb" />
+    <MESSAGE value="Finished stockpicker" />
+    <MESSAGE value="Updated stockpicker.rb:&#10;- Corrected result output so that it actually puts the correct sequence of numbers &#10;- You can now enter your own array of stock prices (Should be formatted like this: 1, 2, 3, 4)" />
+    <MESSAGE value="Added bubblesort.rb" />
+    <MESSAGE value="Added two older projects to the pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two older projects to the pool" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StartUp@substrings.rcov" NAME="substrings Coverage Results" MODIFIED="1691479575610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
-    <SUITE FILE_PATH="coverage/StartUp@stockpicker.rcov" NAME="stockpicker Coverage Results" MODIFIED="1691480198746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@substrings.rcov" NAME="substrings Coverage Results" MODIFIED="1691492392634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@class_test_rb.rcov" NAME="class_test.rb Coverage Results" MODIFIED="1691501211939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@modules_test_rb.rcov" NAME="modules_test.rb Coverage Results" MODIFIED="1691500545151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@bubblesort.rcov" NAME="bubblesort Coverage Results" MODIFIED="1691487450385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@stock_picker.rcov" NAME="stock_picker Coverage Results" MODIFIED="1691505591156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@bubble_sort.rcov" NAME="bubble_sort Coverage Results" MODIFIED="1691502286072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@sub_strings.rcov" NAME="sub_strings Coverage Results" MODIFIED="1691501621969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@stockpicker.rcov" NAME="stockpicker Coverage Results" MODIFIED="1691487796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
   </component>
 </project>

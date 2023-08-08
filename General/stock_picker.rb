@@ -10,27 +10,22 @@ def stock_picker(stock_market)
   stock_min = stock_market.min
   profit = stock_max - stock_min
   result = Array.new
-  temp_index_min = 0
-  temp_index_max = 0
+  bought = false
 
   stock_market.each_with_index do |number, index|
-    if number == stock_min
+    if number == stock_min && bought == false
       result << index
-      temp_index_min = index
+      bought = true
 
-    elsif number == stock_max
+    elsif number == stock_max && bought == true
       result << index
-      temp_index_max = index
+
     end
   end
 
 
   p result
-  if temp_index_min < temp_index_max
-    puts "You should buy on day ##{result[0]} and sell on day ##{result[1]}"
-  else
-    puts "You should buy on day ##{result[1]} and sell on day ##{result[0]}"
-  end
+  puts "You should buy on day ##{result[0]} and sell on day ##{result[1]}"
   puts "Your profit will be #{profit}"
 end
 

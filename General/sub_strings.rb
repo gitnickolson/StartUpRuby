@@ -11,11 +11,12 @@ def substrings(words, dictionary)
     end
   end
 
-  words.split(" ",).each do |split_word|
-    if !words_hash.has_key?(split_word)
-      words_hash[split_word] = 0
-    end
-  end
+  # if you additionaly want every word in the original string to be counted
+  # words.split(" ",).each do |split_word|
+  # if !words_hash.has_key?(split_word)
+  #   words_hash[split_word] = 0
+  #H end
+
 
   puts words_hash
 end
