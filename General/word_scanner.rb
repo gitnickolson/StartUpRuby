@@ -19,7 +19,7 @@ def palindrome_test
 end
 
 def anagram_test
-  puts 'This will require you to enter 2 words for me to compare.'
+  puts "This will require you to enter 2 words for me to compare."
   puts "What's the first word?"
   anagram = gets.chomp
   puts "What's the second word?"
