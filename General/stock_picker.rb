@@ -6,27 +6,30 @@ stock_market.each_with_index do |number, index|
 end
 
 def stock_picker(stock_market)
-  stock_max = stock_market.max
-  stock_min = stock_market.min
-  profit = stock_max - stock_min
+  max_profit = 0
+  buy_day = 0
+  sell_day = 0
   result = Array.new
-  bought = false
 
-  stock_market.each_with_index do |number, index|
-    if number == stock_min && bought == false
-      result << index
-      bought = true
-
-    elsif number == stock_max && bought == true
-      result << index
-
+  stock_market[0..-2].each_with_index do |buy_number, buy_index|
+    stock_market[(buy_index + 1)..-1].each.with_index do |sell_number, sell_index|
+      if (sell_number - buy_number) > max_profit
+        puts "buy index = #{buy_index}, value = #{buy_number}"
+        puts "sell index = #{sell_index}, value = #{sell_number}"
+        buy_day = buy_index
+        sell_day = sell_index + (buy_index + 1)
+        max_profit = sell_number - buy_number
+        puts "Profit = #{max_profit}"
+      end
     end
   end
 
+  result << buy_day
+  result << sell_day
 
   p result
   puts "You should buy on day ##{result[0]} and sell on day ##{result[1]}"
-  puts "Your profit will be #{profit}"
+  puts "Your profit will be #{max_profit}"
 end
 
 stock_picker(stock_market)

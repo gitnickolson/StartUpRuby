@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="Added two older projects to the pool">
-      <change afterPath="$PROJECT_DIR$/Classes/class_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/modules_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubblesort.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/bubble_sort.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/romannumberconverter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/roman_number_converter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockpicker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/stock_picker.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/substrings.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/sub_strings.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordscanner.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/word_scanner.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +12,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gitnickolson"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="681f8c20-aa74-4442-ba1c-477ee39b70eb" />
+        <option name="url" value="https://github.com/gitnickolson/StartUpIVX.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/bubblesort.rb" root0="SKIP_HIGHLIGHTING" />
@@ -69,7 +74,7 @@
       <updated>1691140501480</updated>
       <workItem from="1691478964770" duration="8472000" />
       <workItem from="1691487744673" duration="4000" />
-      <workItem from="1691487758316" duration="12170000" />
+      <workItem from="1691487758316" duration="12470000" />
     </task>
     <task id="LOCAL-00001" summary="Finished stockpicker">
       <option name="closed" value="true" />
@@ -103,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691493920661</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added class_test.rb and module_test.rb and changed filenames to snake_case">
+      <option name="closed" value="true" />
+      <created>1691506584180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691506584180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added class_test.rb and module_test.rb and changed filenames to snake_case">
+      <option name="closed" value="true" />
+      <created>1691506598181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691506598181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +147,8 @@
     <MESSAGE value="Updated stockpicker.rb:&#10;- Corrected result output so that it actually puts the correct sequence of numbers &#10;- You can now enter your own array of stock prices (Should be formatted like this: 1, 2, 3, 4)" />
     <MESSAGE value="Added bubblesort.rb" />
     <MESSAGE value="Added two older projects to the pool" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two older projects to the pool" />
+    <MESSAGE value="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StartUp@substrings.rcov" NAME="substrings Coverage Results" MODIFIED="1691492392634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
