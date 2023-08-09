@@ -1,18 +1,21 @@
-class MyCar
+module Towable
+  def can_tow(pounds)
+    pounds < 2000
+  end
+end
+
+class Vehicle
   attr_accessor :color
-  attr_reader :year
+  attr_reader :year, :model
+  @@vehicle_count = 0
 
   def initialize(year, model, color)
     @year = year
     @model = model
     @color = color
     @current_speed = 0
-  end
+    @@vehicle_count += 1
 
-  def spray_paint(color)
-    previous = self.color
-    self.color = color
-    puts "You changed the color of your car from #{previous} to #{color}"
   end
 
   def current_speed
@@ -31,12 +34,86 @@ class MyCar
 
   def shut_off
     @current_speed = 0
-    puts "You shut the car off and decreased your speed to #{@current_speed} mph."
+    puts "You shut the vehicle off and decreased your speed to #{@current_speed} mph."
   end
 
-  garry = MyCar.new("2014", "Opel", "Red")
-  garry.speed_up(20)
-  garry.brake(11)
-  garry.shut_off
-  garry.spray_paint("White")
+  def self.gas_mileage(gallons, miles)
+    puts "#{miles / gallons} miles per gallon of gas."
+  end
+
+  def spray_paint(color)
+    previous = self.color
+    self.color = color
+    puts "You changed the color of your vehicle from #{previous} to #{self.color}"
+  end
+
+  def to_s
+    "#{self.year}, #{self.model}, #{self.color}"
+  end
+
+  def self.how_many_vehicles?
+    puts "There are currently #{@@vehicle_count} active instances of the Vehicle class"
+  end
+
+  def age
+    determine_time
+  end
+
+  private
+
+  def determine_time
+    puts Time.now.year - self.year
+  end
 end
+
+class MyCar < Vehicle
+  TYPE = "Car"
+
+  def initialize(year, model, color)
+    super
+  end
+end
+
+class MyTruck < Vehicle
+  include Towable
+  TYPE = "Truck"
+
+  def initialize(year, model, color)
+    super
+  end
+end
+
+garry = MyCar.new("2014", "Opel", "Red")
+sponge = MyTruck.new("2008", "Mitsubishi", "Black")
+garry.speed_up(20)
+garry.brake(11)
+garry.shut_off
+garry.spray_paint("White")
+sponge.speed_up(169)
+sponge.brake(22)
+sponge.shut_off
+sponge.spray_paint("Blue")
+garry.current_speed
+sponge.current_speed
+Vehicle.how_many_vehicles?
+
+MyCar.gas_mileage(41, 1231)
+MyTruck.gas_mileage(23, 234)
+puts garry
+puts sponge
+
+puts "--- MyCar method lookup ---"
+p MyCar.ancestors
+puts "--- MyTruck method lookup ---"
+p MyTruck.ancestors
+puts "--- Vehicle method lookup ---"
+p Vehicle.ancestors
+
+
+
+
+# Wohin mit dem initializer?
+# ich habe "self-struggles"
+# warum will age nicht?
+# @@, @?
+# protected
