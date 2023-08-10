@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
+    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="class_test.rb changes&#10;- Added a lot of code">
+      <change beforePath="$PROJECT_DIR$/Classes/class_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/class_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/General/stock_picker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/stock_picker.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +16,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gitnickolson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gitnickolson&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -28,9 +31,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/bubblesort.rb" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/stockpicker.rb" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/substrings.rb" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Classes/class_test.rb" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -41,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/General" />
@@ -75,6 +79,7 @@
       <workItem from="1691478964770" duration="8472000" />
       <workItem from="1691487744673" duration="4000" />
       <workItem from="1691487758316" duration="12470000" />
+      <workItem from="1691562148362" duration="20851000" />
     </task>
     <task id="LOCAL-00001" summary="Finished stockpicker">
       <option name="closed" value="true" />
@@ -124,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691506598181</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed stock_picker.rb&#10;- You can't sell before you've bought now&#10;- It now iterates through the stock_market array until it has found the smartest buy &amp; sell&#10;&#10;class_test.rb&#10;- small changes">
+      <option name="closed" value="true" />
+      <created>1691579355908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691579355909</updated>
+    </task>
+    <task id="LOCAL-00008" summary="class_test.rb changes&#10;- Added a lot of code">
+      <option name="closed" value="true" />
+      <created>1691589346078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691589346079</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,14 +169,16 @@
     <MESSAGE value="Added bubblesort.rb" />
     <MESSAGE value="Added two older projects to the pool" />
     <MESSAGE value="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
+    <MESSAGE value="Fixed stock_picker.rb&#10;- You can't sell before you've bought now&#10;- It now iterates through the stock_market array until it has found the smartest buy &amp; sell&#10;&#10;class_test.rb&#10;- small changes" />
+    <MESSAGE value="class_test.rb changes&#10;- Added a lot of code" />
+    <option name="LAST_COMMIT_MESSAGE" value="class_test.rb changes&#10;- Added a lot of code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StartUp@substrings.rcov" NAME="substrings Coverage Results" MODIFIED="1691492392634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
-    <SUITE FILE_PATH="coverage/StartUp@class_test_rb.rcov" NAME="class_test.rb Coverage Results" MODIFIED="1691501211939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@class_test_rb.rcov" NAME="class_test.rb Coverage Results" MODIFIED="1691592283536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@modules_test_rb.rcov" NAME="modules_test.rb Coverage Results" MODIFIED="1691500545151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@bubblesort.rcov" NAME="bubblesort Coverage Results" MODIFIED="1691487450385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
-    <SUITE FILE_PATH="coverage/StartUp@stock_picker.rcov" NAME="stock_picker Coverage Results" MODIFIED="1691505591156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@stock_picker.rcov" NAME="stock_picker Coverage Results" MODIFIED="1691589915871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@bubble_sort.rcov" NAME="bubble_sort Coverage Results" MODIFIED="1691502286072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@sub_strings.rcov" NAME="sub_strings Coverage Results" MODIFIED="1691501621969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@stockpicker.rcov" NAME="stockpicker Coverage Results" MODIFIED="1691487796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />

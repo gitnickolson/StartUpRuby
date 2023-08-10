@@ -4,6 +4,31 @@ module Towable
   end
 end
 
+class Student
+  attr_accessor :name
+
+  def initialize(name, grade)
+  @name = name
+  @grade = grade
+  end
+
+  def better_grade_than(name)
+    if name.get_grade > @grade
+      puts "Well done! #{name}: #{name.get_grade}, #{@name}: #{@grade}"
+    end
+  end
+
+  def to_s
+    "#{name}"
+  end
+
+protected
+
+  def get_grade
+    @grade
+  end
+end
+
 class Vehicle
   attr_accessor :color
   attr_reader :year, :model
@@ -15,7 +40,6 @@ class Vehicle
     @color = color
     @current_speed = 0
     @@vehicle_count += 1
-
   end
 
   def current_speed
@@ -48,7 +72,7 @@ class Vehicle
   end
 
   def to_s
-    "#{self.year}, #{self.model}, #{self.color}"
+    "#{year}, #{model}, #{color}"
   end
 
   def self.how_many_vehicles?
@@ -83,8 +107,8 @@ class MyTruck < Vehicle
   end
 end
 
-garry = MyCar.new("2014", "Opel", "Red")
-sponge = MyTruck.new("2008", "Mitsubishi", "Black")
+garry = MyCar.new(2014, "Opel", "Red")
+sponge = MyTruck.new(2008, "Mitsubishi", "Black")
 garry.speed_up(20)
 garry.brake(11)
 garry.shut_off
@@ -109,8 +133,14 @@ p MyTruck.ancestors
 puts "--- Vehicle method lookup ---"
 p Vehicle.ancestors
 
+sponge.age
 
+mike = Student.new("mike", 2)
+jarry = Student.new("jarry", 5)
 
+puts mike
+puts jarry
+mike.better_grade_than(jarry)
 
 # Wohin mit dem initializer?
 # ich habe "self-struggles"
