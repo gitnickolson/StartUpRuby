@@ -14,18 +14,15 @@ def stock_picker(stock_market)
   stock_market[0..-2].each_with_index do |buy_number, buy_index|
     stock_market[(buy_index + 1)..-1].each.with_index do |sell_number, sell_index|
       if (sell_number - buy_number) > max_profit
-        puts "buy index = #{buy_index}, value = #{buy_number}"
-        puts "sell index = #{sell_index}, value = #{sell_number}"
         buy_day = buy_index
         sell_day = sell_index + (buy_index + 1)
         max_profit = sell_number - buy_number
-        puts "Profit = #{max_profit}"
       end
     end
   end
 
-  result << buy_day
-  result << sell_day
+  result << buy_day + 1
+  result << sell_day + 1
 
   p result
   puts "You should buy on day ##{result[0]} and sell on day ##{result[1]}"

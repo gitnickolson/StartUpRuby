@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="class_test.rb changes&#10;- Added a lot of code">
-      <change beforePath="$PROJECT_DIR$/Classes/class_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/class_test.rb" afterDir="false" />
+    <list default="true" id="d407a2c6-dcfe-4f1d-8017-84fb77a9f337" name="Changes" comment="class_test.rb changes&#10;- Added some code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/General/stock_picker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/General/stock_picker.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +80,9 @@
       <workItem from="1691487744673" duration="4000" />
       <workItem from="1691487758316" duration="12470000" />
       <workItem from="1691562148362" duration="20851000" />
+      <workItem from="1691649638888" duration="6123000" />
+      <workItem from="1691676464516" duration="519000" />
+      <workItem from="1691676989279" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="Finished stockpicker">
       <option name="closed" value="true" />
@@ -145,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691589346079</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="class_test.rb changes&#10;- Added some code">
+      <option name="closed" value="true" />
+      <created>1691654789635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691654789635</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,14 +182,15 @@
     <MESSAGE value="Added class_test.rb and module_test.rb and changed filenames to snake_case" />
     <MESSAGE value="Fixed stock_picker.rb&#10;- You can't sell before you've bought now&#10;- It now iterates through the stock_market array until it has found the smartest buy &amp; sell&#10;&#10;class_test.rb&#10;- small changes" />
     <MESSAGE value="class_test.rb changes&#10;- Added a lot of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="class_test.rb changes&#10;- Added a lot of code" />
+    <MESSAGE value="class_test.rb changes&#10;- Added some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="class_test.rb changes&#10;- Added some code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StartUp@substrings.rcov" NAME="substrings Coverage Results" MODIFIED="1691492392634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
-    <SUITE FILE_PATH="coverage/StartUp@class_test_rb.rcov" NAME="class_test.rb Coverage Results" MODIFIED="1691592283536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@class_test_rb.rcov" NAME="class_test.rb Coverage Results" MODIFIED="1691656567763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@modules_test_rb.rcov" NAME="modules_test.rb Coverage Results" MODIFIED="1691500545151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@bubblesort.rcov" NAME="bubblesort Coverage Results" MODIFIED="1691487450385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
-    <SUITE FILE_PATH="coverage/StartUp@stock_picker.rcov" NAME="stock_picker Coverage Results" MODIFIED="1691589915871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
+    <SUITE FILE_PATH="coverage/StartUp@stock_picker.rcov" NAME="stock_picker Coverage Results" MODIFIED="1691652430786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@bubble_sort.rcov" NAME="bubble_sort Coverage Results" MODIFIED="1691502286072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@sub_strings.rcov" NAME="sub_strings Coverage Results" MODIFIED="1691501621969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
     <SUITE FILE_PATH="coverage/StartUp@stockpicker.rcov" NAME="stockpicker Coverage Results" MODIFIED="1691487796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="StartUp" />
